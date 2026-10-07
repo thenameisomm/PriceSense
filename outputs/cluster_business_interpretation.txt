@@ -1,0 +1,100 @@
+================================================================================
+CLUSTER BUSINESS INTERPRETATION
+================================================================================
+
+================================================================================
+CLUSTER 0: AVERAGE
+Size: 646 products (47.8% of dataset)
+================================================================================
+
+Key Metrics (mean):
+  • Discounted Price: ₹1461
+  • Discount Percentage: 38.9%
+  • Rating: 4.20/5.0
+  • Review Count: 31196
+
+Category Composition (top):
+  • Home&Kitchen: 33.0%
+  • Computers&Accessories: 32.4%
+  • Electronics: 29.4%
+
+Discount Band Composition:
+  • 30-50%: 33.0%
+  • 10-30%: 26.2%
+  • 50-70%: 25.1%
+  • 0-10%: 10.5%
+  • 70-100%: 5.3%
+
+Business Interpretation:
+  This cluster represents the MAINSTREAM market segment.
+  Products have moderate prices, moderate discounts, and good ratings.
+  High review counts indicate established, popular products.
+  TARGET: Mass-market consumers seeking value for money.
+
+================================================================================
+CLUSTER 1: LOW-RATING
+Size: 555 products (41.1% of dataset)
+================================================================================
+
+Key Metrics (mean):
+  • Discounted Price: ₹1023
+  • Discount Percentage: 59.8%
+  • Rating: 3.94/5.0
+  • Review Count: 2780
+
+Category Composition (top):
+  • Home&Kitchen: 38.0%
+  • Electronics: 32.2%
+  • Computers&Accessories: 29.0%
+
+Discount Band Composition:
+  • 50-70%: 44.0%
+  • 70-100%: 27.8%
+  • 30-50%: 24.5%
+
+Business Interpretation:
+  This cluster represents the BUDGET/DEEP-DISCOUNT segment.
+  Deep discounts (59.8% avg) but lower ratings (3.94) and fewer reviews.
+  May indicate lower quality, newer products, or niche items.
+  TARGET: Price-sensitive consumers willing to trade quality for savings.
+
+================================================================================
+CLUSTER 2: HIGH-PRICE / LOW-DISCOUNT
+Size: 150 products (11.1% of dataset)
+================================================================================
+
+Key Metrics (mean):
+  • Discounted Price: ₹19686
+  • Discount Percentage: 31.6%
+  • Rating: 4.18/5.0
+  • Review Count: 14108
+
+Category Composition (top):
+  • Electronics: 80.7%
+  • Home&Kitchen: 16.0%
+
+Discount Band Composition:
+  • 10-30%: 45.3%
+  • 30-50%: 38.7%
+  • 50-70%: 8.7%
+  • 0-10%: 6.7%
+
+Business Interpretation:
+  This cluster represents the PREMIUM segment.
+  High prices (₹19,687 avg) with low discounts (31.6% avg).
+  Good ratings (4.18) with moderate review counts.
+  Brand strength allows pricing power without deep discounts.
+  TARGET: Quality-conscious consumers, brand loyalists.
+
+================================================================================
+SUMMARY
+================================================================================
+Three distinct product segments identified:
+  1. MAINSTREAM (Cluster 0, 47.8%): Moderate price/discount, high reviews, good ratings
+  2. BUDGET/DISCOUNT (Cluster 1, 41.1%): Low price, deep discounts, lower ratings, fewer reviews
+  3. PREMIUM (Cluster 2, 11.1%): High price, low discounts, good ratings, moderate reviews
+
+Strategic Implications:
+  • Mainstream: Volume play, competitive pricing, review management
+  • Budget: Cost optimization, quality improvement to raise ratings
+  • Premium: Brand investment, maintain pricing power, loyalty programs
