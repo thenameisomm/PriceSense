@@ -1,0 +1,4 @@
+cluster,label,size,percentage,mean_discounted_price,mean_discount_percentage,mean_rating,mean_rating_count,mean_log_rating_count,mean_log_discounted_price
+0,Average,646,47.82,1461.13,38.93,4.2,31196.15,9.42,6.8
+1,Low-Rating,555,41.08,1023.28,59.79,3.94,2780.22,6.7,6.31
+2,High-Price / Low-Discount,150,11.1,19686.5,31.63,4.18,14107.8,8.82,9.74
