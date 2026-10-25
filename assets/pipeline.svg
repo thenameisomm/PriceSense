@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">PriceSense analysis pipeline</title>
+  <desc id="desc">Six-stage workflow: raw Amazon India catalog, preprocessing, statistical analysis and EDA, K-Means segmentation, rule-based recommendations, and a Streamlit dashboard.</desc>
+  <defs>
+    <linearGradient id="flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3DDBC2"/>
+      <stop offset="1" stop-color="#6A8DFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="#08111F"/>
+  <rect x="0.75" y="0.75" width="1198.5" height="358.5" rx="27.25" fill="none" stroke="#1C304B" stroke-width="1.5"/>
+  <rect x="56" y="32" width="40" height="3" rx="1.5" fill="url(#flow)"/>
+
+  <text x="56" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16.5" letter-spacing="2" fill="#3DDBC2">THE PRICESENSE PIPELINE</text>
+  <text x="56" y="106" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="36" font-weight="700" fill="#F2F7FF">From catalog to decision</text>
+  <text x="56" y="134" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="19" fill="#8FA3BF">From raw CSV to a local dashboard — six transparent stages.</text>
+
+  <g font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif">
+    <g>
+      <rect x="56" y="156" width="168" height="150" rx="16" fill="#0D1A2A" stroke="#1E3350" stroke-width="1.5"/>
+      <text x="72" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#3DDBC2">01</text>
+      <text x="72" y="212" font-size="20" font-weight="700" fill="#E9F2FF">RAW CATALOG</text>
+      <text x="72" y="246" font-size="24" font-weight="700" fill="#3DDBC2">1,465 × 16</text>
+      <text x="72" y="274" font-size="16.5" fill="#8FA3BF">Amazon India CSV</text>
+      <text x="72" y="294" font-size="16.5" fill="#8FA3BF">with reviews</text>
+    </g>
+    <g>
+      <rect x="242" y="156" width="168" height="150" rx="16" fill="#0D1A2A" stroke="#1E3350" stroke-width="1.5"/>
+      <text x="258" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#3DDBC2">02</text>
+      <text x="258" y="212" font-size="20" font-weight="700" fill="#E9F2FF">PREPROCESS</text>
+      <text x="258" y="246" font-size="24" font-weight="700" fill="#3DDBC2">1,351 × 34</text>
+      <text x="258" y="274" font-size="16.5" fill="#8FA3BF">clean · dedupe</text>
+      <text x="258" y="294" font-size="16.5" fill="#8FA3BF">engineer 12 features</text>
+    </g>
+    <g>
+      <rect x="428" y="156" width="168" height="150" rx="16" fill="#0D1A2A" stroke="#1E3350" stroke-width="1.5"/>
+      <text x="444" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#3DDBC2">03</text>
+      <text x="444" y="212" font-size="20" font-weight="700" fill="#E9F2FF">ANALYZE</text>
+      <text x="444" y="246" font-size="24" font-weight="700" fill="#3DDBC2">7 reports</text>
+      <text x="444" y="274" font-size="16.5" fill="#8FA3BF">statistics + EDA</text>
+      <text x="444" y="294" font-size="16.5" fill="#8FA3BF">36 charts</text>
+    </g>
+    <g>
+      <rect x="614" y="156" width="168" height="150" rx="16" fill="#0D1A2A" stroke="#1E3350" stroke-width="1.5"/>
+      <text x="630" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#3DDBC2">04</text>
+      <text x="630" y="212" font-size="20" font-weight="700" fill="#E9F2FF">SEGMENT</text>
+      <text x="630" y="246" font-size="24" font-weight="700" fill="#3DDBC2">K = 3</text>
+      <text x="630" y="274" font-size="16.5" fill="#8FA3BF">6-feature K-Means</text>
+      <text x="630" y="294" font-size="16.5" fill="#8FA3BF">PCA for display</text>
+    </g>
+    <g>
+      <rect x="800" y="156" width="168" height="150" rx="16" fill="#0D1A2A" stroke="#1E3350" stroke-width="1.5"/>
+      <text x="816" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#3DDBC2">05</text>
+      <text x="816" y="212" font-size="20" font-weight="700" fill="#E9F2FF">RECOMMEND</text>
+      <text x="816" y="246" font-size="24" font-weight="700" fill="#3DDBC2">19,397</text>
+      <text x="816" y="274" font-size="16.5" fill="#8FA3BF">5 rule-based</text>
+      <text x="816" y="294" font-size="16.5" fill="#8FA3BF">strategies</text>
+    </g>
+    <g>
+      <rect x="986" y="156" width="168" height="150" rx="16" fill="#0D1A2A" stroke="#1E3350" stroke-width="1.5"/>
+      <text x="1002" y="182" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="15" fill="#3DDBC2">06</text>
+      <text x="1002" y="212" font-size="20" font-weight="700" fill="#E9F2FF">EXPLORE</text>
+      <text x="1002" y="246" font-size="24" font-weight="700" fill="#3DDBC2">5 pages</text>
+      <text x="1002" y="274" font-size="16.5" fill="#8FA3BF">Streamlit app</text>
+      <text x="1002" y="294" font-size="16.5" fill="#8FA3BF">reads saved outputs</text>
+    </g>
+
+    <g stroke="#3DDBC2" stroke-width="1.5" opacity="0.55">
+      <line x1="228" y1="231" x2="237" y2="231"/><path d="M237 227 L242 231 L237 235 Z" fill="#3DDBC2" stroke="none"/>
+      <line x1="414" y1="231" x2="423" y2="231"/><path d="M423 227 L428 231 L423 235 Z" fill="#3DDBC2" stroke="none"/>
+      <line x1="600" y1="231" x2="609" y2="231"/><path d="M609 227 L614 231 L609 235 Z" fill="#3DDBC2" stroke="none"/>
+      <line x1="786" y1="231" x2="795" y2="231"/><path d="M795 227 L800 231 L795 235 Z" fill="#3DDBC2" stroke="none"/>
+      <line x1="972" y1="231" x2="981" y2="231"/><path d="M981 227 L986 231 L981 235 Z" fill="#3DDBC2" stroke="none"/>
+    </g>
+  </g>
+
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="16.5">
+    <text x="56" y="336" fill="#6F86A5">STATIC DATASET · LOCAL APP · NO LIVE AMAZON API</text>
+    <text x="1144" y="336" text-anchor="end" fill="#6F86A5">outputs/ + models/</text>
+  </g>
+</svg>
